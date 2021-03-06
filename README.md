@@ -7,3 +7,6 @@ A simple [binary to decimal](./bin2dec) value converter, made with javascript.
 
 ## 2. Border Radius Previewer
 Simple [border radius previewer](./border-radius) made with javascript.
+
+## 3. Calculator
+Basic [Calculator](./calculator) made with vanilla javascript.
