@@ -10,3 +10,6 @@ Simple [border radius previewer](./border-radius) made with javascript.
 
 ## 3. Calculator
 Basic [Calculator](./calculator) made with vanilla javascript.
+
+## 4. Calculator
+[Color Cycle](./color-cycle) app made with vanilla javascript and accepts input color, increment value, time interval, and other stuff.
