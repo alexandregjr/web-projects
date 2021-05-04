@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+span {
+    width: 50rem;
+    font-size: 2rem;
+}
+
+span#coins {
+    font-weight: bold;
+}
+
+input {
+    font-family: monospace;
+    width: 50rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
