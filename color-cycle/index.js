@@ -23,20 +23,22 @@ const states = {
 };
 
 let curr_state = undefined;
-let interval = undefined;
+    let interval = undefined;
 
-let increment = {};
-let timeInterval = undefined;
-let initColor = undefined;
-let currColor = undefined;
+    let increment = {};
+    let timeInterval = undefined;
+    let initColor = undefined;
+    let currColor = undefined;
 
-const stop = () => {
-    time.style.display = 'block';
-    init.style.display = 'block';
-    incr.style.display = 'block';
-    incg.style.display = 'block';
-    incb.style.display = 'block';
-    button.innerHTML = 'Start';
+    const stop = () => {
+        time.style.display = 'block';
+        init.style.display = 'block';
+        incr.style.display = 'block';
+        incg.style.display = 'block';
+        incb.style.display = 'block';
+        button.style.backgroundColor = '#06d6a0';
+        button.style.color = '#02563F';
+        button.innerHTML = 'Start';
 
     curr_state = states.STOPPED;
 
@@ -49,6 +51,8 @@ const begin = () => {
     incr.style.display = 'none';
     incg.style.display = 'none';
     incb.style.display = 'none';
+    button.style.backgroundColor = '#ef476f';
+    button.style.color = '#720A22';
     button.innerHTML = 'Stop';
 
     curr_state = states.RUNNING;
