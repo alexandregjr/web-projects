@@ -13,7 +13,7 @@ function process(event) {
         output.style = "font-weight: bold";
         output.innerText = result === 0 && binary.length === 0 ? "" : result;    
     } else {
-        output.style = "color: #994433";
+        output.style = "color: #aaa";
         output.innerText = "error: can only input 0's & 1's";
     }
 }
