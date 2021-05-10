@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: monospace;
 }
 
 body {
@@ -10,34 +10,31 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(245, 245, 245);
+    background-color: #fff;
 }
 
 h1 {
-    background: rgb(220, 220, 220);
-    padding: 10px 20px 5px 20px;
-    color: #555;
-    border-radius: 5px 5px 0 0;
+    padding: 1em;
 }
 
 main#calculator {
     display: flex;
     flex-direction: column;
     width: 400px;
-    padding: 20px;
-    background-color: rgb(200, 200, 200);
+    padding: 1em;
+    background-color: #000;
     border-radius: 5px;
 }
 
 div.display {
-    height: 60px;
-    background-color: rgb(230, 230, 230);
-    margin-bottom: 18px;
+    height: 2em;
+    background-color: #fff;
+    margin-bottom: 0.5em;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    padding: 10px;
-    font-size: 24px;
+    padding: 0.5em;
+    font-size: 2em;
     border-radius: 5px 5px 0 0;
 }
 
@@ -64,8 +61,8 @@ div.row > div {
     margin-right: 2px;
     text-indent: 10px;
     padding-top: 10px;
-    background-color: rgb(244, 244, 244);
-    color: #919191;
+    background-color: #fff;
+    color: #000;
     cursor: pointer;
 }
 
@@ -74,12 +71,7 @@ div.row > div:last-of-type {
     margin-right: 0;
 }
 
-div.row > div.result {
-    background-color: coral;
-    color: rgb(133, 65, 40);
-}
-
 div.row > div.clear {
     background-color: crimson;
-    color: rgb(110, 13, 32);
+    color: #fff;
 }
