@@ -5,6 +5,8 @@ const incr = document.getElementById('incr');
 const incg = document.getElementById('incg');
 const incb = document.getElementById('incb');
 
+const desc = document.getElementsByTagName('small');
+
 window.onload = () => {
     begin();
 };
@@ -36,6 +38,11 @@ let curr_state = undefined;
         incr.style.display = 'block';
         incg.style.display = 'block';
         incb.style.display = 'block';
+
+        for (let i = 0; i < desc.length; i++) {
+            desc[i].style.display = 'block';
+        }
+
         button.style.backgroundColor = '#06d6a0';
         button.style.color = '#02563F';
         button.innerHTML = 'Start';
@@ -51,6 +58,11 @@ const begin = () => {
     incr.style.display = 'none';
     incg.style.display = 'none';
     incb.style.display = 'none';
+
+    for (let i = 0; i < desc.length; i++) {
+        desc[i].style.display = 'none';
+    }
+
     button.style.backgroundColor = '#ef476f';
     button.style.color = '#720A22';
     button.innerHTML = 'Stop';
