@@ -9,6 +9,11 @@ body {
     padding: 1em;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
 div {
     padding: 20px;
     background: white;

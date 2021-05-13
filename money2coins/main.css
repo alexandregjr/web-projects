@@ -7,6 +7,9 @@ body {
     justify-content: center;
     height: 100vh;
 }
+h1 {
+    font-size: 3rem;
+}
 
 span {
     width: 50rem;
