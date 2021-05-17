@@ -1,4 +1,4 @@
-# Basic Calculator
+# Money2Coins
 This app allows you to convert a value in money to cents, also giving the 
 minimum amount of coins needed to achieve that value (in coins of 50¢, 25¢, 10¢,
 5¢ and 1¢). 

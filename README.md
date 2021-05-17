@@ -1,5 +1,3 @@
-<!-- 
--->
 # Web Projects 
 This repository incluse some of the projects related to web that I developed.  
 I took inspiration on [florinpop17](https://github.com/florinpop17/app-ideas)'s 

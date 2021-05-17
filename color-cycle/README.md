@@ -1,4 +1,4 @@
-# Basic Calculator
+# Color Cycle 
 In this app you can select a number of parameters regarding the cycle of colors
 and then watch the colors change when you play the app.
 The parameters that you can change are:
