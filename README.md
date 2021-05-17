@@ -1,5 +1,4 @@
 <!-- 
-    TODO(#2): add project readme to all projects 
 -->
 # Web Projects 
 This repository incluse some of the projects related to web that I developed.  
